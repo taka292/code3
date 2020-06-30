@@ -13,6 +13,7 @@
   background-color:black;
   color:white;
   padding:20px 0;
+  width: 100%;
 }
 
 .info:after{
@@ -22,4 +23,29 @@
 }
 .contents {
   float:left;
+  width: 200px;
+}
+
+/*.left-contents:after{*/
+/*  clear:both;*/
+/*  display:block;*/
+/*  content:" ";*/
+/*}*/
+
+.img-contents{
+  width :150px;
+}
+
+.large-contents{
+  float:left;
+}
+
+.left-contents{
+  width :50%;
+}
+.right-contents{
+  width :50%;
+}
+main {
+  width:100%;
 }
